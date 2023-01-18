@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.history-list {
+  padding: 0 5px;
+}
+.history-list .history-title {
+  height: 40px;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+}
+.history-list .history-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history-list .history-body .uni-tag {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.search-area {
+  background-color: #c00000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.sugg-list {
+  padding: 0 5px;
+}
+.sugg-list .sugg-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0px;
+  border-bottom: solid 1px #efefef;
+}
+.sugg-list .sugg-item .goods-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
